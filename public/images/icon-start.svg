@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon-start</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Admin---Home" transform="translate(-916.000000, -225.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-10" transform="translate(887.000000, 207.000000)">
+                <g id="Group-8">
+                    <g id="Group-5">
+                        <path d="M29,19 L29,37 C29,37.7911658 29.875246,38.2690074 30.5407576,37.8411785 L44.5407576,28.8411785 C45.1530808,28.4475421 45.1530808,27.5524579 44.5407576,27.1588215 L30.5407576,18.1588215 C29.875246,17.7309926 29,18.2088342 29,19 Z M31,20.832 L42.15,28 L31,35.167 L31,20.832 Z" id="icon-start"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

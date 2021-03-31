@@ -1,0 +1,17 @@
+stages:
+  - qa
+
+"Deploy to Staging":
+  when: manual
+  stage: qa
+  script:
+    - dep deploy staging-local --revision=${CI_COMMIT_SHA} -vv -n 2>&1 | tee release-staging-${CI_COMMIT_SHA}.txt
+  environment:
+    name: Staging
+    url: https://wmu.spark-staging.dev
+  artifacts:
+    paths:
+      - release-staging-${CI_COMMIT_SHA}.txt
+  dependencies: [] # We don't need artifacts from the last two stages
+  tags:
+    - spark.staging

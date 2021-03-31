@@ -1,0 +1,114 @@
+span.multiselect-native-select {
+    position: relative
+}
+
+span.multiselect-native-select select {
+    border: 0!important;
+    clip: rect(0 0 0 0)!important;
+    height: 1px!important;
+    margin: -1px -1px -1px -3px!important;
+    overflow: hidden!important;
+    padding: 0!important;
+    position: absolute!important;
+    width: 1px!important;
+    left: 50%;
+    top: 30px
+}
+
+.multiselect-container {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	min-width: 315px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.multiselect-container .input-group {
+    margin: 5px
+}
+
+.multiselect-container>li {
+    padding: 0
+}
+
+.multiselect-container>li>a.multiselect-all label {
+    font-weight: normal;
+    margin-bottom: 10px; 
+    border-bottom: 1px solid #CACACA;
+    padding: 10px 15px;
+}
+
+.multiselect-container>li.multiselect-group label {
+    margin: 0;
+    padding: 3px 20px 3px 20px;
+    height: 100%;
+    font-weight: 700
+}
+
+.multiselect-container>li.multiselect-group-clickable label {
+    cursor: pointer
+}
+
+.multiselect-container>li>a {
+    padding: 0
+}
+
+.multiselect-container>li>a>label {
+    margin: 0;
+    height: 100%;
+    cursor: pointer;
+    font-weight: normal;
+    padding: 0 15px 10px;
+    width: 100%; float: left; font-size: 15px; line-height: 20px; color: #222222; text-transform: capitalize;
+}
+
+.multiselect-container>li>a>label.radio,
+.multiselect-container>li>a>label.checkbox {
+    margin: 0
+}
+
+.multiselect-container>li>a>label>input[type=checkbox] {
+    margin-bottom: 5px
+}
+
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+.form-inline .multiselect-container label.checkbox,
+.form-inline .multiselect-container label.radio {
+    padding: 3px 20px 3px 40px
+}
+
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox],
+.form-inline .multiselect-container li a label.radio input[type=radio] {
+    margin-left: -20px;
+    margin-right: 0
+}
+
+/* new updated css */
+.selMult.Ltop_pc1 {z-index: 5;}
+.selMult {position: absolute; top: 150px; left: 40px; width: 160px; z-index: 1;}
+.selMult > label {opacity: 0.5; color: #364150; font-family: "Open Sans"; font-size: 10px; font-weight: bold; text-transform: uppercase; line-height: 14px;}
+.selMult li, .selMult li a:focus, .selMult li.active, .selMult li.active a, .selMult .open li.active, .selMult .multiselect-item.multiselect-all {outline: 0 none !important;}
+.selMult .multiselect:hover, .selMult .btn-group.open .multiselect {box-shadow: none;}
+.selMult .btn-group.open .dropdown-toggle {box-shadow: none !important;}
+.selMult ul li label input[type="checkbox"] {display: none; }
+.selMult ul li .cr {position: relative; display: inline-block; border: 2px solid #000; border-radius: 0; width: 18px; height: 18px; float: left; margin-right:10px;}
+.selMult ul li .cr-icon{position: absolute; font-size: 10px; margin-left: -1px; line-height: 0; top: 50%; left: 20%;}
+.selMult ul li label input[type="checkbox"]+.cr>.cr-icon {transform: scale(3) rotateZ(-20deg); opacity: 0; transition: all .3s ease-in;}
+.selMult ul li input[type=checkbox]:checked+.cr {background: #0072be; border-color: #0072be;}
+.selMult ul li input[type="checkbox"]:checked+.cr>.cr-icon {transform: scale(1) rotateZ(0deg); opacity: 1; color: #ffffff;}
+.selMult .dropdown-menu > .active > a, .selMult .dropdown-menu > .active > a:hover, .selMult .dropdown-menu > .active > a:focus {background: #fff; color: #333;}
+.selMult span.multiselect-selected-text {float: left;}
+.selMult .btn .caret {float: right; text-align: right; margin-top: 8px; border:0;}
+.selMult .btn .caret:before {    content: "\f0d7";
+    font-family: Font Awesome\ 5 Free;
+    right: 10px;
+    top: 8px;
+    position: absolute;
+    color: #222222;
+    font-size: 12px;
+    font-weight: bold;}
